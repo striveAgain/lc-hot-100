@@ -11,7 +11,7 @@
 **木桶效应：只有让最短的木板延长了，才能增加整个木桶的容量**
 
 ### C++ 代码
-```
+```c++
 int maxArea(vector<int>& height) {
     int n = height.size(), ans = -1;
     
@@ -40,7 +40,7 @@ int maxArea(vector<int>& height) {
 ---
 
 简洁版：
-```
+```c++
 int maxArea(vector<int>& height) {
     int n = height.size(), ans = -1;
     
